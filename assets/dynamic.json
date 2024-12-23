@@ -1,0 +1,56 @@
+[
+  {
+    "key": "MyComponent",
+    "value": {
+      "text": "Hello World"
+    }
+  },
+  {
+    "key": "CraftDTextView",
+    "value": {
+      "text": "Hello World CraftD",
+      "textSize": "40",
+      "textColorHex": "#D977EB"
+    }
+  },
+  {
+    "key": "CraftDButton",
+    "value": {
+      "text": "Some Action like this :)",
+      "align": "RIGHT",
+      "textAlign": "CENTER",
+      "textAllCaps": true,
+      "textSize": "20",
+      "textColorHex": "#FFFFFF",
+      "backgroundHex": "#2fa003",
+      "actionProperties": {
+        "deeplink": "CraftDview://any",
+        "analytics": {
+          "category": "hello",
+          "action": "world",
+          "label": "everywhere"
+        }
+      }
+    }
+  },
+  {
+    "key": "CustomBotaoFV",
+    "value": {
+      "text": "Botao novo",
+      "align": "RIGHT",
+      "textAlign": "CENTER",
+      "textAllCaps": true,
+      "textSize": "40",
+      "textColorHex": "#FFFFFF",
+      "backgroundHex": "#2fa003",
+      "actionProperties": {
+        "deeplink": "CraftDview://any",
+        "analytics": {
+          "category": "hello",
+          "action": "world",
+          "label": "everywhere"
+        }
+      }
+    }
+  }
+]
