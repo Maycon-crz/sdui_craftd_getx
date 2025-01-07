@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sdui_craftd_getx/home/home_binding.dart';
+import 'package:sdui_craftd_getx/home/binding/home_binding.dart';
 import 'package:sdui_craftd_getx/home/home_page.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 

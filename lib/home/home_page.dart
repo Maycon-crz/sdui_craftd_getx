@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:sdui_craftd_getx/example/custom_botao_fv/custom_botao_fv_builder.dart';
 import 'package:sdui_craftd_getx/example/main_state.dart';
 import 'package:sdui_craftd_getx/example/my_component/my_component_builder.dart';
-import 'package:sdui_craftd_getx/home/home_controller.dart';
+import 'package:sdui_craftd_getx/home/controller/home_controller.dart';
 
 class HomePage extends GetView<HomeController> {
   const HomePage({super.key, required this.title});
