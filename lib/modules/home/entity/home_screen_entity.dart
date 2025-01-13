@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:objectbox/objectbox.dart';
-import 'package:sdui_craftd_getx/home/entity/component_dto.dart';
+import 'package:sdui_craftd_getx/modules/home/entity/component_dto.dart';
 
 @Entity()
 class HomeScreenEntity {

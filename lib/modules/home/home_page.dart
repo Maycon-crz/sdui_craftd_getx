@@ -2,10 +2,10 @@ import 'package:craftd_widget/presentation/builder/craftd_builder_manager.dart';
 import 'package:craftd_widget/presentation/ui/craftd_dynamic.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sdui_craftd_getx/example/custom_botao_fv/custom_botao_fv_builder.dart';
-import 'package:sdui_craftd_getx/example/main_state.dart';
-import 'package:sdui_craftd_getx/example/my_component/my_component_builder.dart';
-import 'package:sdui_craftd_getx/home/controller/home_controller.dart';
+import 'package:sdui_craftd_getx/custom/craftd/custom_botao_fv/custom_craft_button_builder.dart';
+import 'package:sdui_craftd_getx/custom/craftd/main_state.dart';
+import 'package:sdui_craftd_getx/custom/craftd/my_component/my_component_builder.dart';
+import 'package:sdui_craftd_getx/modules/home/controller/home_controller.dart';
 
 class HomePage extends GetView<HomeController> {
   const HomePage({super.key, required this.title});
@@ -32,7 +32,7 @@ class HomePage extends GetView<HomeController> {
             final craftdBuilderManager = CraftDBuilderManager().add(
               [
                 MyComponentBuilder(),
-                CustomBotaoFVBuilder(),
+                CustomCraftButtonBuilder(),
               ],
             );
 
@@ -92,7 +92,7 @@ class HomePage extends GetView<HomeController> {
 //             final craftdBuilderManager = CraftDBuilderManager().add(
 //               [
 //                 MyComponentBuilder(),
-//                 CustomBotaoFVBuilder(),
+//                 CustomCraftButtonBuilder(),
 //               ],
 //             );
 
@@ -158,7 +158,7 @@ class HomePage extends GetView<HomeController> {
 // //                 final craftdBuilderManager = CraftDBuilderManager().add(
 // //                   [
 // //                     MyComponentBuilder(), 
-// //                     CustomBotaoFVBuilder(),
+// //                     CustomCraftButtonBuilder(),
 // //                   ]/* Aqui vai o Builder do seu componente, a principio da para ser mais de um*/
 // //                 );
 // //                 /*--------------------------------------------------*/

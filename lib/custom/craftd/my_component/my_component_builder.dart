@@ -2,8 +2,8 @@
 import 'package:craftd_widget/craftd_widget.export.dart';
 import 'package:craftd_widget/presentation/craftd_view_listener.dart';
 import 'package:flutter/material.dart';
-import 'package:sdui_craftd_getx/example/my_component/my_component.dart';
-import 'package:sdui_craftd_getx/example/my_component/my_component_properties.dart';
+import 'package:sdui_craftd_getx/custom/craftd/my_component/my_component.dart';
+import 'package:sdui_craftd_getx/custom/craftd/my_component/my_component_properties.dart';
 
 class MyComponentBuilder extends CraftDBuilder<MyComponentProperties> {
   MyComponentBuilder() : super(key: keyBuilder);

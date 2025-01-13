@@ -4,11 +4,11 @@ import 'package:craftd_widget/data/model/base/simple_properties.dart';
 import 'package:get/get.dart';
 import 'package:sdui_craftd_getx/database/objectbox.g.dart';
 import 'package:sdui_craftd_getx/database/objectbox_database.dart';
-import 'package:sdui_craftd_getx/example/main_state.dart';
-import 'package:sdui_craftd_getx/home/entity/component_dto.dart';
+import 'package:sdui_craftd_getx/custom/craftd/main_state.dart';
+import 'package:sdui_craftd_getx/modules/home/entity/component_dto.dart';
 // import 'package:get/get_connect/connect.dart';
-import 'package:sdui_craftd_getx/home/entity/home_screen_entity.dart';
-import 'package:sdui_craftd_getx/home/repository/home_repository.dart';
+import 'package:sdui_craftd_getx/modules/home/entity/home_screen_entity.dart';
+import 'package:sdui_craftd_getx/modules/home/repository/home_repository.dart';
 
 class HomeController extends GetxController {
   final HomeRepository _repository;

@@ -22,12 +22,15 @@ dependencies:
   # equatable: ^2.0.5
   craftd_widget: ^1.0.1
   get: ^4.6.6
+  get_storage: ^2.1.1
   # Comentar esse trecho para rodar o app e descomentar para alterar/adicionar alguma entidade
   # objectbox: ^4.0.3 # A principio usado so para buildar a primeira vez
-  # Esse nao comentar
+  # Nao comentar
   objectbox_flutter_libs: any
   # Comentar esse trecho para rodar o app e descomentar para alterar/adicionar alguma entidade
   # objectbox_sync_flutter_libs: any
+  #
+  mask_text_input_formatter: ^2.4.0
 
 dev_dependencies:
   flutter_test:

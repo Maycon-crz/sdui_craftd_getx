@@ -1,8 +1,8 @@
 
 import 'package:craftd_widget/data/model/action/action_properties.dart';
 
-class CustomBotaoFvProperties/*dto*/ {
-  const CustomBotaoFvProperties({
+class CustomCraftButtonProperties/*dto*/ {
+  const CustomCraftButtonProperties({
     required this.text,
     this.textColorHex,
     this.textSize,

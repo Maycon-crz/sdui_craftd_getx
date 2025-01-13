@@ -1,5 +1,6 @@
 
 import 'package:get/get.dart';
+import 'package:sdui_craftd_getx/api/api_path.dart';
 import 'package:sdui_craftd_getx/api/rest_client.dart';
 
 class HomeRepository {
@@ -10,12 +11,14 @@ class HomeRepository {
   }) : _rest = rest;
 
   Future<Response> loadPropertiesHomeUIRepository() async{
+    print("Chegou aqui");
     return await _rest.get(
-      "http://192.168.100.33/fv/server_driven_ui_php/index.php/tela/1",
+      "${ApiPath.base}index.php/tela/1",
       headers: {
         'Content-Type': 'application/json',
       },
     ).then((value){
+      print(value);
       return value;
     });
   }

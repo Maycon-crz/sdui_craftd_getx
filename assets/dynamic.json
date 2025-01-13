@@ -34,7 +34,7 @@
     }
   },
   {
-    "key": "CustomBotaoFV",
+    "key": "CustomCraftButton",
     "value": {
       "text": "Botao novo",
       "align": "RIGHT",

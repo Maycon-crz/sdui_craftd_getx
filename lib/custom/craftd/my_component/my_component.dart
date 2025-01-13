@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sdui_craftd_getx/example/my_component/my_component_properties.dart';
+import 'package:sdui_craftd_getx/custom/craftd/my_component/my_component_properties.dart';
 
 class MyComponent extends StatelessWidget {
   final VoidCallback callback;
